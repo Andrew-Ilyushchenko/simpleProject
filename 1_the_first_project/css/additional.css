@@ -1,0 +1,30 @@
+.additional {
+    margin-top: 80px;
+}
+
+.card_img {
+    width: 225px;
+    height: 159px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 40px;
+}
+
+.card_img img{
+    width: 100%;
+}
+
+.card_tittle {
+  text-align: center;  
+}
+
+.card_span {
+    font-weight: 300;
+}
+
+.card_text  {
+   text-align: center;
+   margin-bottom: 15px;
+}
