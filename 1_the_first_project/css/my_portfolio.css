@@ -1,60 +1,41 @@
 .my_portfolio {
     margin-top: 70px;
 }
-.container_contact{
-    
-}
-
-.main_card_title {
-}
-.card-section_span {
-}
 .card_portfolio{
-padding: 15px 0 0 15px;
+    padding: 15px 0 0 15px;
 }
-
 .img_portfolio{
     display: flex;
     justify-content: center;
 }
-
 .card_tittle_portfolio {
     display: flex;
-   align-items: center;
-   font-size: 25px;  
+    align-items: center;
+    font-size: 25px;  
 }
-
 .card_tittle_sendpay{
     color: #6C63FF;
 }
-
 .card_tittle_sendpay::before{
-content: '';
-height: 51px;
-width: 51px;
-background-image: url("../img/emojione_e-mail.jpg");
-display: flex;
-align-items: center;
+    content: '';
+    height: 51px;
+    width: 51px;
+    background-image: url("../img/emojione_e-mail.jpg");
+    display: flex;
+    align-items: center;
 }
-
 .card_tittle_commerce{
     display: flex;
     color: #4581F6;
     height: 51px;
     width: 51px;
 }
-
 .card_tittle_beats{
     display: flex;
     height: 51px;
     width: 51px;
     color: rgb(20, 16, 16);
     font-weight: 300;
-}
-
-.card_img_portfolio {
-    
-    
 }
 .card_img_portfolio img{
     width: 289px;

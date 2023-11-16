@@ -7,27 +7,26 @@
 @import url(./footer.css);
 
 
-* {margin: 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
 }
-
 html{
     font-family: 'Poppins', sans-serif;
 }
-
-.container { max-width: 1170px;
+.container { 
+    max-width: 1170px;
     margin: auto;
     padding: 0 15px;
 }
-
 .header_burger{
     display: none;
 }
-
-.wrap-card {  display: flex;
+.wrap-card {
+    display: flex;
     justify-content: space-between;
 }
 .card {
@@ -40,7 +39,6 @@ html{
 p{
     color: rgb(30, 26, 26);
 }
-
 .card-section_span{
     font-weight: 300;
     color: #14279B;
@@ -51,9 +49,6 @@ p{
     color: #002265;
     text-align: center;
 }
-
-
-
 @media (max-width: 1119px)
 {
     .main_tittle{
@@ -63,48 +58,35 @@ p{
         font-size: 20px;
     }
 }
-
-
 @media(max-width:1034px){
-    
     .wrap-card{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-
-    
-
     .card{
         width: 400px;
         margin: 28px;
-
     }
-    
     .card_img{
-       margin: 15px 61px;
+        margin: 15px 61px;
     }
     .wrap_firstscreen{
         display: block;
         min-height: 650px;
     }
-    
     .firstscreen_left{
         margin: auto;
     }
-
     .firstscreen_right{
         margin: auto;
     }
-   
 }
-
 @media(max-width:904px){
     .navigation-button_wrap{
         display: none;
     }
-
     .header_burger{
         display: block;
         position: relative;
@@ -119,7 +101,6 @@ p{
         height: 2px;
         top: 9px;
     }
-
     .header_burger::before,
     .header_burger::after{
         content: '';
@@ -129,33 +110,22 @@ p{
         height: 2px;
         left: 0;
     }
-
    .header_burger::before{
         top: 0;
     }
-
     .header_burger::after{
         bottom: 0;
     }
     .additional{
         margin-top: 80px;
     }
-
-  
-
 }
-
 @media(max-width:480px){
-   
     .card {
         max-width: 320px; 
         margin: 25px;
     }
-    
     .card_img{
         margin: 15px 47.5px;
      }
-
 }
-
-

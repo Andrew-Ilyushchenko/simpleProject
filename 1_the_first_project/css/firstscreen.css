@@ -1,8 +1,8 @@
 .firstscreen {
     margin-top: 70px;
 }
-
-.wrap_firstscreen {display: flex;  
+.wrap_firstscreen {
+    display: flex;  
     justify-content: space-between;
     align-items: center;
     max-width: 1167px;
@@ -21,7 +21,6 @@
     display: block;
     font-weight: 300;
 }
-
 .firstscreen_title p{
     font-size: 23px;
     font-weight: 400;
@@ -34,7 +33,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .firstscreen_img img{
     width: 100%;
 }

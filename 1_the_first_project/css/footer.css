@@ -1,9 +1,8 @@
-.container_footer{
-   
+.footer{
+   object-fit: cover;
 }
-
 .footer_img {
-   
    width: 100%;
-   overflow: hidden;
+   height: 100%;
+   text-align: center;
 }
